@@ -1,0 +1,365 @@
+[2022-10-21T15:24:47.004] [INFO] default - {
+  read: true,
+  instances: [
+    {
+      description: 'My CDKTF compute instance',
+      machineType: 'e2-medium',
+      zone: 'us-central1-a',
+      name: 'cdktf-instance01',
+      bootDisk: [Object],
+      networkInterface: [Array],
+      metadata: [Object],
+      serviceAccount: [Object]
+    }
+  ]
+}
+[2022-10-21T15:37:47.466] [INFO] default - DirPath is :  gcp_projects/dev-projects/skshubham
+[2022-10-21T15:37:47.468] [ERROR] default - TypeError: fs.resolve is not a function
+    at /Users/skshubham/projects/cdktf_poc/util.ts:23:28
+    at Array.forEach (<anonymous>)
+    at readDir (/Users/skshubham/projects/cdktf_poc/util.ts:22:33)
+    at Object.<anonymous> (/Users/skshubham/projects/cdktf_poc/util.ts:32:13)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Module.m._compile (/Users/skshubham/projects/cdktf_poc/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/skshubham/projects/cdktf_poc/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+[2022-10-21T15:37:47.470] [INFO] default - []
+[2022-10-21T15:37:47.477] [INFO] default - {
+  read: true,
+  instances: [
+    {
+      description: 'My CDKTF compute instance',
+      machineType: 'e2-medium',
+      zone: 'us-central1-a',
+      name: 'cdktf-instance01',
+      bootDisk: [Object],
+      networkInterface: [Array],
+      metadata: [Object],
+      serviceAccount: [Object]
+    }
+  ]
+}
+[2022-10-21T15:40:40.235] [INFO] default - DirPath is :  gcp_projects/dev-projects/skshubham
+[2022-10-21T15:40:40.237] [INFO] default - /Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/project.yaml
+[2022-10-21T15:40:40.237] [INFO] default - /Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/test.yaml
+[2022-10-21T15:40:40.237] [INFO] default - [
+  '/Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/project.yaml',
+  '/Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/test.yaml'
+]
+[2022-10-21T15:40:40.246] [INFO] default - {
+  read: true,
+  instances: [
+    {
+      description: 'My CDKTF compute instance',
+      machineType: 'e2-medium',
+      zone: 'us-central1-a',
+      name: 'cdktf-instance01',
+      bootDisk: [Object],
+      networkInterface: [Array],
+      metadata: [Object],
+      serviceAccount: [Object]
+    }
+  ]
+}
+[2022-10-21T15:54:42.534] [INFO] default - DirPath is :  gcp_projects/dev-projects/skshubham
+[2022-10-21T15:54:42.535] [INFO] default - /Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/project.yaml
+[2022-10-21T15:54:42.540] [ERROR] default - YAMLException: bad indentation of a mapping entry (2:21)
+
+ 1 | --- 
+ 2 | project: "skshubham",
+-------------------------^
+ 3 | region: "us-central-1"
+    at generateError (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:183:10)
+    at throwError (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:187:9)
+    at readBlockMapping (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:1182:7)
+    at composeNode (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:1441:12)
+    at readDocument (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:1625:3)
+    at loadDocuments (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:1688:5)
+    at load (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:1714:19)
+    at readYamlFileSync (/Users/skshubham/projects/cdktf_poc/util.ts:15:20)
+    at /Users/skshubham/projects/cdktf_poc/util.ts:29:46
+    at Array.forEach (<anonymous>) {
+  reason: 'bad indentation of a mapping entry',
+  mark: {
+    name: null,
+    buffer: '--- \nproject: "skshubham",\nregion: "us-central-1"\n',
+    position: 25,
+    line: 1,
+    column: 20,
+    snippet: ' 1 | --- \n' +
+      ' 2 | project: "skshubham",\n' +
+      '-------------------------^\n' +
+      ' 3 | region: "us-central-1"'
+  }
+}
+[2022-10-21T15:54:42.548] [INFO] default - []
+[2022-10-21T15:54:42.556] [INFO] default - {
+  read: true,
+  instances: [
+    {
+      description: 'My CDKTF compute instance',
+      machineType: 'e2-medium',
+      zone: 'us-central1-a',
+      name: 'cdktf-instance01',
+      bootDisk: [Object],
+      networkInterface: [Array],
+      metadata: [Object],
+      serviceAccount: [Object]
+    }
+  ]
+}
+[2022-10-21T15:55:11.307] [INFO] default - DirPath is :  gcp_projects/dev-projects/skshubham
+[2022-10-21T15:55:11.309] [INFO] default - /Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/project.yaml
+[2022-10-21T15:55:11.311] [ERROR] default - YAMLException: bad indentation of a mapping entry (2:21)
+
+ 1 | --- 
+ 2 | project: "skshubham",
+-------------------------^
+ 3 | region: "us-central-1"
+    at generateError (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:183:10)
+    at throwError (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:187:9)
+    at readBlockMapping (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:1182:7)
+    at composeNode (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:1441:12)
+    at readDocument (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:1625:3)
+    at loadDocuments (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:1688:5)
+    at load (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:1714:19)
+    at readYamlFileSync (/Users/skshubham/projects/cdktf_poc/util.ts:15:20)
+    at /Users/skshubham/projects/cdktf_poc/util.ts:29:46
+    at Array.forEach (<anonymous>) {
+  reason: 'bad indentation of a mapping entry',
+  mark: {
+    name: null,
+    buffer: '--- \nproject: "skshubham",\nregion: "us-central-1"\n',
+    position: 25,
+    line: 1,
+    column: 20,
+    snippet: ' 1 | --- \n' +
+      ' 2 | project: "skshubham",\n' +
+      '-------------------------^\n' +
+      ' 3 | region: "us-central-1"'
+  }
+}
+[2022-10-21T15:55:11.316] [INFO] default - []
+[2022-10-21T15:55:11.322] [INFO] default - {
+  read: true,
+  instances: [
+    {
+      description: 'My CDKTF compute instance',
+      machineType: 'e2-medium',
+      zone: 'us-central1-a',
+      name: 'cdktf-instance01',
+      bootDisk: [Object],
+      networkInterface: [Array],
+      metadata: [Object],
+      serviceAccount: [Object]
+    }
+  ]
+}
+[2022-10-21T15:56:21.540] [INFO] default - DirPath is :  gcp_projects/dev-projects/skshubham
+[2022-10-21T15:56:21.542] [INFO] default - /Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/project.yaml
+[2022-10-21T15:56:21.545] [ERROR] default - YAMLException: bad indentation of a mapping entry (3:23)
+
+ 1 | --- 
+ 2 | projectInfo:
+ 3 |   project: "skshubham",
+---------------------------^
+ 4 |   region: "us-central-1"
+    at generateError (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:183:10)
+    at throwError (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:187:9)
+    at readBlockMapping (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:1182:7)
+    at composeNode (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:1441:12)
+    at readBlockMapping (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:1164:11)
+    at composeNode (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:1441:12)
+    at readDocument (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:1625:3)
+    at loadDocuments (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:1688:5)
+    at load (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:1714:19)
+    at readYamlFileSync (/Users/skshubham/projects/cdktf_poc/util.ts:15:20) {
+  reason: 'bad indentation of a mapping entry',
+  mark: {
+    name: null,
+    buffer: '--- \nprojectInfo:\n  project: "skshubham",\n  region: "us-central-1"\n',
+    position: 40,
+    line: 2,
+    column: 22,
+    snippet: ' 1 | --- \n' +
+      ' 2 | projectInfo:\n' +
+      ' 3 |   project: "skshubham",\n' +
+      '---------------------------^\n' +
+      ' 4 |   region: "us-central-1"'
+  }
+}
+[2022-10-21T15:56:21.549] [INFO] default - []
+[2022-10-21T15:56:21.555] [INFO] default - {
+  read: true,
+  instances: [
+    {
+      description: 'My CDKTF compute instance',
+      machineType: 'e2-medium',
+      zone: 'us-central1-a',
+      name: 'cdktf-instance01',
+      bootDisk: [Object],
+      networkInterface: [Array],
+      metadata: [Object],
+      serviceAccount: [Object]
+    }
+  ]
+}
+[2022-10-21T16:03:32.284] [INFO] default - DirPath is :  gcp_projects/dev-projects/skshubham
+[2022-10-21T16:03:32.285] [INFO] default - /Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/project.yaml
+[2022-10-21T16:03:32.288] [ERROR] default - YAMLException: bad indentation of a mapping entry (2:23)
+
+ 1 | projectMeta:
+ 2 |   project: "skshubham",
+---------------------------^
+ 3 |   region: "us-central-1"
+    at generateError (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:183:10)
+    at throwError (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:187:9)
+    at readBlockMapping (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:1182:7)
+    at composeNode (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:1441:12)
+    at readBlockMapping (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:1164:11)
+    at composeNode (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:1441:12)
+    at readDocument (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:1625:3)
+    at loadDocuments (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:1688:5)
+    at load (/Users/skshubham/projects/cdktf_poc/node_modules/js-yaml/lib/loader.js:1714:19)
+    at readYamlFileSync (/Users/skshubham/projects/cdktf_poc/util.ts:15:20) {
+  reason: 'bad indentation of a mapping entry',
+  mark: {
+    name: null,
+    buffer: 'projectMeta:\n  project: "skshubham",\n  region: "us-central-1"\n',
+    position: 35,
+    line: 1,
+    column: 22,
+    snippet: ' 1 | projectMeta:\n' +
+      ' 2 |   project: "skshubham",\n' +
+      '---------------------------^\n' +
+      ' 3 |   region: "us-central-1"'
+  }
+}
+[2022-10-21T16:03:32.292] [INFO] default - []
+[2022-10-21T16:03:32.297] [INFO] default - {
+  read: true,
+  instances: [
+    {
+      description: 'My CDKTF compute instance',
+      machineType: 'e2-medium',
+      zone: 'us-central1-a',
+      name: 'cdktf-instance01',
+      bootDisk: [Object],
+      networkInterface: [Array],
+      metadata: [Object],
+      serviceAccount: [Object]
+    }
+  ]
+}
+[2022-10-21T16:04:32.946] [INFO] default - DirPath is :  gcp_projects/dev-projects/skshubham
+[2022-10-21T16:04:32.947] [INFO] default - /Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/project.yaml
+[2022-10-21T16:04:32.950] [INFO] default - /Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/test.yaml
+[2022-10-21T16:04:32.957] [INFO] default - ProjectInfo:  {
+  projectMeta: { project: 'skshubham', region: 'us-central-1' },
+  gcpObjects: [ { read: true, instances: [Array] } ]
+}
+[2022-10-21T16:04:32.957] [INFO] default - [
+  '/Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/project.yaml',
+  '/Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/test.yaml'
+]
+[2022-10-21T16:04:32.962] [INFO] default - {
+  read: true,
+  instances: [
+    {
+      description: 'My CDKTF compute instance',
+      machineType: 'e2-medium',
+      zone: 'us-central1-a',
+      name: 'cdktf-instance01',
+      bootDisk: [Object],
+      networkInterface: [Array],
+      metadata: [Object],
+      serviceAccount: [Object]
+    }
+  ]
+}
+[2022-10-21T16:10:20.026] [INFO] default - DirPath is :  gcp_projects/dev-projects/skshubham
+[2022-10-21T16:10:20.028] [INFO] default - /Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/project.yaml
+[2022-10-21T16:10:20.031] [INFO] default - /Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/test.yaml
+[2022-10-21T16:10:20.037] [INFO] default - ProjectInfo:  {
+  projectMeta: { project: 'skshubham', region: 'us-central-1' },
+  gcpObjects: [ { read: true, instances: [Array] } ]
+}
+[2022-10-21T16:10:20.038] [INFO] default - {
+  projectMeta: { project: 'skshubham', region: 'us-central-1' },
+  gcpObjects: [ { read: true, instances: [Array] } ]
+}
+[2022-10-21T16:10:20.039] [INFO] default - DirPath is :  gcp_projects/dev-projects/skshubham/test.yaml
+[2022-10-21T16:10:20.040] [ERROR] default - Error: ENOTDIR: not a directory, scandir 'gcp_projects/dev-projects/skshubham/test.yaml'
+    at Object.readdirSync (node:fs:1438:3)
+    at readDir (/Users/skshubham/projects/cdktf_poc/util.ts:26:12)
+    at Object.<anonymous> (/Users/skshubham/projects/cdktf_poc/main.ts:30:28)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Module.m._compile (/Users/skshubham/projects/cdktf_poc/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/skshubham/projects/cdktf_poc/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12) {
+  errno: -20,
+  syscall: 'scandir',
+  code: 'ENOTDIR',
+  path: 'gcp_projects/dev-projects/skshubham/test.yaml'
+}
+[2022-10-21T16:10:20.044] [INFO] default - {}
+[2022-10-21T16:11:01.372] [INFO] default - DirPath is :  gcp_projects/dev-projects/skshubham/
+[2022-10-21T16:11:01.374] [INFO] default - /Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/project.yaml
+[2022-10-21T16:11:01.377] [INFO] default - /Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/test.yaml
+[2022-10-21T16:11:01.383] [INFO] default - ProjectInfo:  {
+  projectMeta: { project: 'skshubham', region: 'us-central-1' },
+  gcpObjects: [ { read: true, instances: [Array] } ]
+}
+[2022-10-21T16:11:01.384] [INFO] default - {
+  projectMeta: { project: 'skshubham', region: 'us-central-1' },
+  gcpObjects: [ { read: true, instances: [Array] } ]
+}
+[2022-10-21T16:11:34.725] [INFO] default - DirPath is :  gcp_projects/dev-projects/skshubham/
+[2022-10-21T16:11:34.727] [INFO] default - /Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/project.yaml
+[2022-10-21T16:11:34.730] [INFO] default - /Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/test.yaml
+[2022-10-21T16:11:34.736] [INFO] default - ProjectInfo:  {
+  projectMeta: { project: 'skshubham', region: 'us-central-1' },
+  gcpObjects: [ { read: true, instances: [Array] } ]
+}
+[2022-10-21T16:11:34.737] [INFO] default - {
+  projectMeta: { project: 'skshubham', region: 'us-central-1' },
+  gcpObjects: [ { read: true, instances: [Array] } ]
+}
+[2022-10-26T13:29:21.372] [INFO] default - DirPath is :  gcp_projects/dev-projects/skshubham/
+[2022-10-26T13:29:21.374] [INFO] default - /Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/project.yaml
+[2022-10-26T13:29:21.377] [INFO] default - /Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/test.yaml
+[2022-10-26T13:29:21.382] [INFO] default - ProjectInfo:  {
+  projectMeta: { project: 'skshubham', region: 'us-central-1' },
+  gcpObjects: [ { read: true, instances: [Array] } ]
+}
+[2022-10-26T13:29:21.383] [INFO] default - {
+  projectMeta: { project: 'skshubham', region: 'us-central-1' },
+  gcpObjects: [ { read: true, instances: [Array] } ]
+}
+[2022-10-26T13:29:49.040] [INFO] default - DirPath is :  gcp_projects/dev-projects/skshubham/
+[2022-10-26T13:29:49.042] [INFO] default - /Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/project.yaml
+[2022-10-26T13:29:49.045] [INFO] default - /Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/test.yaml
+[2022-10-26T13:29:49.050] [INFO] default - ProjectInfo:  {
+  projectMeta: { project: 'skshubham', region: 'us-central-1' },
+  gcpObjects: [ { read: true, instances: [Array] } ]
+}
+[2022-10-26T13:29:49.051] [INFO] default - {
+  projectMeta: { project: 'skshubham', region: 'us-central-1' },
+  gcpObjects: [ { read: true, instances: [Array] } ]
+}
+[2022-10-26T13:43:00.579] [INFO] default - DirPath is :  gcp_projects/dev-projects/skshubham/
+[2022-10-26T13:43:00.582] [INFO] default - /Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/project.yaml
+[2022-10-26T13:43:00.584] [INFO] default - /Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/test.yaml
+[2022-10-26T13:43:00.592] [INFO] default - ProjectInfo:  {
+  projectMeta: { project: 'skshubham', region: 'us-central-1' },
+  gcpObjects: [ { read: true, instances: [Array] } ]
+}
+[2022-10-26T13:43:00.593] [INFO] default - {
+  projectMeta: { project: 'skshubham', region: 'us-central-1' },
+  gcpObjects: [ { read: true, instances: [Array] } ]
+}
