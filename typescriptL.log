@@ -363,3 +363,28 @@
   projectMeta: { project: 'skshubham', region: 'us-central-1' },
   gcpObjects: [ { read: true, instances: [Array] } ]
 }
+[2022-10-31T14:03:51.051] [INFO] default - DirPath is :  gcp_projects/dev-projects/skshubham/
+[2022-10-31T14:03:51.054] [INFO] default - /Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/project.yaml
+[2022-10-31T14:03:51.057] [INFO] default - /Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/test.yaml
+[2022-10-31T14:03:51.066] [INFO] default - ProjectInfo:  {
+  projectMeta: { project: 'skshubham', region: 'us-central-1' },
+  gcpObjects: [ { read: true, instances: [Array] } ]
+}
+[2022-10-31T14:03:51.066] [INFO] default - {
+  projectMeta: { project: 'skshubham', region: 'us-central-1' },
+  gcpObjects: [ { read: true, instances: [Array] } ]
+}
+[2022-10-31T14:08:25.858] [INFO] default - DirPath is :  gcp_projects/dev-projects/skshubham/
+[2022-10-31T14:08:25.860] [INFO] default - /Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/project.yaml
+[2022-10-31T14:08:25.863] [INFO] default - /Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/test.yaml
+[2022-10-31T14:08:25.872] [INFO] default - ProjectInfo:  {
+  projectMeta: { project: 'skshubham', region: 'us-central-1' },
+  gcpObjects: [ { read: true, instances: [Array] } ]
+}
+[2022-11-03T17:24:34.351] [INFO] default - DirPath is :  gcp_projects/dev-projects/skshubham/
+[2022-11-03T17:24:34.354] [INFO] default - /Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/project.yaml
+[2022-11-03T17:24:34.356] [INFO] default - /Users/skshubham/projects/cdktf_poc/gcp_projects/dev-projects/skshubham/test.yaml
+[2022-11-03T17:24:34.372] [INFO] default - ProjectInfo:  {
+  projectMeta: { project: 'skshubham', region: 'us-central-1' },
+  gcpObjects: [ { read: true, instances: [Array] } ]
+}

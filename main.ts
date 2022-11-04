@@ -8,7 +8,7 @@ import { ProjectInfo } from "./process_object";
 class CreateComputeInstanceStack extends TerraformStack {
   constructor(scope: Construct, name: string, projectInfo: ProjectInfo) {
     super(scope, name);
-     new provider.GoogleProvider(this, "GogoleProvider",  projectInfo.projectMeta);
+     new provider.GoogleProvider(this, `provider-${projectInfo.projectMeta?.project}-${projectInfo.projectMeta?.region}`,  projectInfo.projectMeta);
 
     const sa = new serviceAccount.ServiceAccount(this, "default", {
       accountId: "cdktf-accountid",
@@ -21,14 +21,13 @@ class CreateComputeInstanceStack extends TerraformStack {
         instance.serviceAccount.email = sa.email
         new computeInstance.ComputeInstance(this, instance.name, instance);
       });
-    }); 
-
-    
+    });     
 }
 }
 
+// skshubham is the project name inside dev project.
 const projectInfo = readDir('gcp_projects/dev-projects/skshubham/');
-logger.info(projectInfo);
+logger.debug(projectInfo);
 const app = new App();
 new CreateComputeInstanceStack(app, "cdktf_poc", projectInfo);
 app.synth();

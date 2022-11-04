@@ -43,3 +43,24 @@ instances:
     email: sa.email
     scopes: 
     - "cloud-platform"
+- description: "My CDKTF compute instance"
+  machineType: "e2-medium"
+  zone: "us-central1-a"
+  name: "cdktf-instance03"
+  bootDisk: 
+    autoDelete: true
+    initializeParams: 
+      type: "pd-balanced"
+      image: "projects/debian-cloud/global/images/debian-11-bullseye-v20220920"
+      labels: 
+        foo: bar
+      size: 20
+  networkInterface:
+  - network: "default"
+    accessConfig: []
+  metadata:
+    foo: "bar"
+  serviceAccount: 
+    email: sa.email
+    scopes: 
+    - "cloud-platform"
